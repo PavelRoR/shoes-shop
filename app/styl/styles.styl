@@ -1,6 +1,7 @@
 green = #00C6A0
 grey = #747474
-
+dark = #1F1F1F
+pink = #EDE8DF
 
 
 *
@@ -29,92 +30,12 @@ li
     clear both
 
 .container
-    width 960px
+    width 940px
     margin 0 auto
 
-.upper_header
-    display block
-    height 45px
-    background-color #1F1F1F
-    overflow hidden
+.active
+    color green !important
 
-.logo
-    padding-top 11px
-
-.search
-    border-right 1px solid #353535
-    display inline-block
-    padding-top 11px
-    padding-right 22px
-    height 45px
-    input[type=text]
-        border 0
-        background-color inherit
-        border-bottom 1px solid #999
-        color #fff
-
-.login
-    display inline-block
-    border-right 1px solid #353535
-    text-align center
-    padding 0 22px
-    height 45px
-    a
-        display block
-        margin-top 11px
-
-.lower_header
-    display block
-    height 60px
-    background-color #fff
-    overflow hidden
-
-.menu
-.right
-    overflow hidden
-    li 
-        display inline-block
-        float left
-        height 60px
-        &:nth-child(4)
-            a
-                line-height: 16px;
-                padding-top: 5px;
-
-        a
-            display inline-block
-            padding 20px 22px
-            border-right 1px solid #eee
-            font-size 16px
-            color #242424
-            text-align center
-            transition all .3s ease-out
-            &:hover
-                background-color #eee
-                transition all .3s ease-in
-        &:first-child
-            border-left 1px solid #eee
-.like
-.cart
-    width 90px
-    li
-        border-left 0 !important
-    a
-        padding 20px 0 !important
-        display block !important
-
-.fa-star-o
-.fa-shopping-cart
-    color grey 
-    padding-right 10px 
-
-.like_number
-.cart_number
-    background-color #aeaeae
-    color #fff
-    font-size 12px
-    border-radius 5px
-    padding 5px
-
-.cart_number
-    background-color green
+@import 'header'
+@import 'main'
+@import 'special'

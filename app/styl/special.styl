@@ -1,0 +1,44 @@
+.special
+    background-color dark
+
+.spec_divs
+    padding-top 25px
+    padding-bottom 25px
+    overflow hidden
+
+    a
+        float left
+        width 300px
+        height 180px
+        background-repeat no-repeat
+        display block
+        transition all .4s ease-out
+        background-size 100%
+        background-position center
+        &:first-child
+            background-image url('../img/sale.jpg')
+            p
+                margin-top 61px
+        &:nth-child(2)
+            margin-left 20px
+            margin-right 20px
+            background-image url('../img/spec.jpg')
+            p
+                margin-top 30px
+        &:last-child
+            background-image url('../img/must_have.jpg')
+            p
+                margin-top 61px
+        &:hover
+            background-size 110%
+            transition all .4s ease-in
+        p
+            font-size: 25px
+            line-height: 60px
+            text-transform: uppercase
+            background-color: rgba(0,0,0,0.8)
+            text-align: center
+            margin-left auto
+            margin-right auto
+            margin-bottom 0
+            width: 77%

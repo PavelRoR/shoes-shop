@@ -1,0 +1,1 @@
+function abc(){cont.innerText="#000"}var cont=document.getElementsByTagName("body");
