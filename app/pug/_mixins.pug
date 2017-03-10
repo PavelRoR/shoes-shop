@@ -1,0 +1,7 @@
+mixin link(href, name)
+    a(href= href)&attributes(attributes)= name
+
+mixin list_u(...items)
+    each item in items
+        ul
+            li= item
